@@ -10,7 +10,4 @@ jobs:
       image: hounddogai/scanner:staging
     steps:
       - uses: actions/checkout@master
-      - run: hounddog scan --output-format=sarif --output-filename=results.sarif
-      - uses: github/codeql-action/upload-sarif@v2
-        with:
-          sarif_file: results.sarif
+      - run: hounddog scan
