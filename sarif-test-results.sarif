@@ -60,17 +60,17 @@
                     ]
                 }
             },
-			
+           
             "results": [{
                     "level": "warning",
                     "ruleId": "java_addCookie",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d333c4effc479638a77cba77c04481aed`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003de10b039724e1aed76008998323b6c7ef`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
                                 },
                                 "region": {
                                     "startLine": 61,
@@ -83,12 +83,12 @@
                     "level": "warning",
                     "ruleId": "java_jwt",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Account Name`   (Sensitivity : Medium)  `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d63fd61731fe51ab0d6358a57a37414f4`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Account Name`   (Sensitivity : Medium)  `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d88a467c978c4c5c88b8e35edbf35c565`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
                                 },
                                 "region": {
                                     "startLine": 62,
@@ -101,12 +101,12 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 64,
@@ -119,12 +119,12 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 67,
@@ -137,12 +137,12 @@
                     "level": "warning",
                     "ruleId": "java_exception",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d62a8072fdd6d89cdb62909404c0071c4`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d579e7261bee51b8d86fc63ad4851bbbb`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 71,
@@ -155,12 +155,12 @@
                     "level": "error",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)If you want to ignore this issue use `--skip-issue\u003debdca148ec31a77aa36fa2986d0a79e9`"
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)If you want to ignore this issue use `--skip-issue\u003da016103fda885f49c05813e64a89355b`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/controllers/CreditController.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/controllers/CreditController.java"
                                 },
                                 "region": {
                                     "startLine": 83,
@@ -173,12 +173,12 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 84,
@@ -191,12 +191,12 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 86,
@@ -209,12 +209,12 @@
                     "level": "error",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dce4c493ef04111c962edbf70b1e53407`"
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003df7573f7739f79c60f376c0eea57e5d49`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
                                 },
                                 "region": {
                                     "startLine": 93,
@@ -227,12 +227,12 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Last Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003df78a2f788bfbb0a15c9157ac531107b8`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Last Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003da43a351c7327a8a118f91b782f85f7fd`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
                                 },
                                 "region": {
                                     "startLine": 96,
@@ -245,12 +245,12 @@
                     "level": "error",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d0f8c39cfa02bdbcbc4cc002c03328cee`"
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d0ed9bd3c58a00dbbce3d2785bee3d7bc`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
                                 },
                                 "region": {
                                     "startLine": 97,
@@ -263,12 +263,12 @@
                     "level": "error",
                     "ruleId": "java_file_generation",
                     "message": {
-                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d7ef4d3fe7c10e1927ad43c4e4b133d6d`"
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd452f53f2e3f4db145292c2dbb45d572`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
                                 },
                                 "region": {
                                     "startLine": 98,
@@ -281,12 +281,12 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d8f4f25e556bbf446978bbe1a312c9711`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003db97c694328ac09cc5814ec31ae574f83`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
                                 },
                                 "region": {
                                     "startLine": 99,
@@ -299,12 +299,12 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 100,
@@ -317,12 +317,12 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 102,
