@@ -1,0 +1,338 @@
+{
+    "version": "2.1.0",
+    "$schema": "http://json.schemastore.org/sarif-2.1.0",
+    "runs": [{
+            "tool": {
+                "driver": {
+                    "name": "HoundDog.ai Scanner",
+                    "informationUri": "https://www.hounddog.ai",
+                    "version": "1.0.0",
+                    "rules": [{
+                            "id": "java_jwt",
+                            "name": "Javajwt",
+                            "helpUri": "https://www.hounddog.ai/rules/java_jwt",
+                            "shortDescription": {
+                                "text": "Sensitive data in JWT detected"
+                            }
+                        }, {
+                            "id": "java_addCookie",
+                            "name": "Javaaddcookie",
+                            "helpUri": "https://www.hounddog.ai/rules/java_addCookie",
+                            "shortDescription": {
+                                "text": "Sensitive data stored in cookie detected"
+                            }
+                        }, {
+                            "id": "java_exception",
+                            "name": "Javaexception",
+                            "helpUri": "https://www.hounddog.ai/rules/java_exception",
+                            "shortDescription": {
+                                "text": "Sensitive data in a exception message detected"
+                            }
+                        }, {
+                            "id": "java_logger",
+                            "name": "Javalogger",
+                            "helpUri": "https://www.hounddog.ai/rules/java_logger",
+                            "shortDescription": {
+                                "text": "Sensitive data in a logger message detected"
+                            }
+                        }, {
+                            "id": "java_file_generation",
+                            "name": "Javafilegeneration",
+                            "helpUri": "https://www.hounddog.ai/rules/java_file_generation",
+                            "shortDescription": {
+                                "text": "Sensitive data detected as part of a dynamic file generation (i.e. in static files)"
+                            }
+                        }, {
+                            "id": "java_sentry",
+                            "name": "Javasentry",
+                            "helpUri": "https://www.hounddog.ai/rules/java_sentry",
+                            "shortDescription": {
+                                "text": "Sending sensitive data to Sentry"
+                            }
+                        }, {
+                            "id": "java_repository",
+                            "name": "Javarepository",
+                            "helpUri": "https://www.hounddog.ai/rules/java_repository",
+                            "shortDescription": {
+                                "text": "Saving data to in-memory databases"
+                            }
+                        }
+                    ]
+                }
+            },
+			
+            "results": [{
+                    "level": "warning",
+                    "ruleId": "java_addCookie",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d333c4effc479638a77cba77c04481aed`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                },
+                                "region": {
+                                    "startLine": 61,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_jwt",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Account Name`   (Sensitivity : Medium)  `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d63fd61731fe51ab0d6358a57a37414f4`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                },
+                                "region": {
+                                    "startLine": 62,
+                                    "startColumn": 27
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 64,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_sentry",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 67,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_exception",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d62a8072fdd6d89cdb62909404c0071c4`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 71,
+                                    "startColumn": 16
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "error",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)If you want to ignore this issue use `--skip-issue\u003debdca148ec31a77aa36fa2986d0a79e9`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/controllers/CreditController.java"
+                                },
+                                "region": {
+                                    "startLine": 83,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 84,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_sentry",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 86,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "error",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dce4c493ef04111c962edbf70b1e53407`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                },
+                                "region": {
+                                    "startLine": 93,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Last Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003df78a2f788bfbb0a15c9157ac531107b8`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                },
+                                "region": {
+                                    "startLine": 96,
+                                    "startColumn": 3
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "error",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d0f8c39cfa02bdbcbc4cc002c03328cee`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                },
+                                "region": {
+                                    "startLine": 97,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "error",
+                    "ruleId": "java_file_generation",
+                    "message": {
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)  `Account Password`   (Sensitivity : High)  `Address`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d7ef4d3fe7c10e1927ad43c4e4b133d6d`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                },
+                                "region": {
+                                    "startLine": 98,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d8f4f25e556bbf446978bbe1a312c9711`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/services/UserServiceImpl.java"
+                                },
+                                "region": {
+                                    "startLine": 99,
+                                    "startColumn": 3
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_logger",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 100,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }, {
+                    "level": "warning",
+                    "ruleId": "java_sentry",
+                    "message": {
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `Address`   (Sensitivity : Medium)  `User Name`   (Sensitivity : Medium)  `Phone Number`   (Sensitivity : Medium)  `Last Name`   (Sensitivity : Medium)  `Email Address`   (Sensitivity : Medium)  `Date of Birth`   (Sensitivity : Low)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                    },
+                    "locations": [{
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "hounddog-banking/hounddog-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                },
+                                "region": {
+                                    "startLine": 102,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
