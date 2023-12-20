@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: hounddogai/scanner:staging
+    # Skip pull requests created by dependabot
+    if: (github.actor != 'dependabot[bot]')
     steps:
       - uses: actions/checkout@master
       - run: hounddog scan
