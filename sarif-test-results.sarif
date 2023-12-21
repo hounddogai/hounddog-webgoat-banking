@@ -64,7 +64,7 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -82,7 +82,7 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -100,7 +100,7 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -118,7 +118,7 @@
                     "level": "warning",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d84cb90702573d9b81f53b1845e9c3f93`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d4381297140dc61983a0853b7828f7883`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -136,7 +136,7 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -154,7 +154,7 @@
                     "level": "warning",
                     "ruleId": "java_sentry",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003dd14b180a3d76156023efe3444c5697c7`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d2f92816dff021d92ee6cd5b1fd7c77da`"
                     },
                     "locations": [{
                             "physicalLocation": {
@@ -172,7 +172,7 @@
                     "level": "warning",
                     "ruleId": "java_exception",
                     "message": {
-                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:    `User Name`   (Sensitivity : Medium)If you want to ignore this issue use `--skip-issue\u003d62a8072fdd6d89cdb62909404c0071c4`"
+                        "text": "This issue is rated as medium severity due to the discovery of low-sensitive data elements.The sensitive data elements found in this issue are:  \n\n\n\n  `User Name`   (Sensitivity : Medium)\n\n\nIf you want to ignore this issue use `--skip-issue\u003d579e7261bee51b8d86fc63ad4851bbbb`"
                     },
                     "locations": [{
                             "physicalLocation": {
