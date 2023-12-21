@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - sarif-test-results.sarif
+  workflow_dispatch:
 jobs:
   hounddog:
     runs-on: ubuntu-latest
