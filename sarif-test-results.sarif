@@ -155,7 +155,7 @@
                     "level": "error",
                     "ruleId": "java_logger",
                     "message": {
-                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:    `Bank Account Details`   (Sensitivity : High)If you want to ignore this issue use `--skip-issue\u003da016103fda885f49c05813e64a89355b`"
+                        "text": "This issue is rated as critical severity due to the discovery of high-sensitive data elements.The sensitive data elements found in this issue are:\n    `Bank Account Details`   (Sensitivity : High) \nIf you want to ignore this issue use \n\n `--skip-issue\u003da016103fda885f49c05813e64a89355b`"
                     },
                     "locations": [{
                             "physicalLocation": {
