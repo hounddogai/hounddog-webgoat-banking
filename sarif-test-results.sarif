@@ -70,7 +70,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                    "uri": "src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
                                 },
                                 "region": {
                                     "startLine": 61,
@@ -88,7 +88,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
+                                    "uri": "src/main/java/com/ii/app/config/security/JwtAuthenticationFilter.java"
                                 },
                                 "region": {
                                     "startLine": 62,
@@ -106,7 +106,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 64,
@@ -124,7 +124,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 67,
@@ -142,7 +142,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 71,
@@ -160,7 +160,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/controllers/CreditController.java"
+                                    "uri": "src/main/java/com/ii/app/controllers/CreditController.java"
                                 },
                                 "region": {
                                     "startLine": 83,
@@ -178,7 +178,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 84,
@@ -196,7 +196,7 @@
                     "locations": [{
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "hounddog-webgoat-banking/src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
+                                    "uri": "src/main/java/com/ii/app/exceptions/GlobalExceptionHandler.java"
                                 },
                                 "region": {
                                     "startLine": 86,
