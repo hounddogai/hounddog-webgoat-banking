@@ -1,5 +1,5 @@
 hounddog:
-  image: hounddogai/scanner:staging
+  image: hounddogai/scanner
   script: hounddog scan --output-format=gitlab --output-filename=results.json
   artifacts:
     reports:
